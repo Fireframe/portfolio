@@ -40,6 +40,16 @@ padding: 10%;
     
 }
 
+@media (max-width: 940px){
+    .informacao__listas {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        
+    }
+}
+
 .informacao__lista__1 {
     display: flex;
     gap: 4rem;

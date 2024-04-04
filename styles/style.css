@@ -206,6 +206,16 @@ body {
 list-style: none;
 }
 
+@media (max-width: 940px){
+    .conteudo__links {
+        display: flex;
+        flex-direction: column;
+        gap: 4.3rem;
+        margin-top: 50px;
+    list-style: none;
+    }
+}
+
 .imagen__pulse__pixelmon {
     width: 400px;
     border-radius: 16px;
